@@ -32,5 +32,15 @@ Citation:
 
 Joke: hmmm
 	: BTW, the joke is available on html file as well (I think it's more suitable on html file)
-<img src="lol.png"/>
+	<img src="lol.png"/>
+
+
+Update as of: 11/8/'15
+	: HW) Pair programming: Add functions to your game
+	: OK now I'm adding logics and functions to previous code; How interesting! 
+	(>.<)
+	: no collaborators-flying SOLO!
+
+
+	
 
