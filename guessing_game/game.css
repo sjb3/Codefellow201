@@ -1,0 +1,25 @@
+
+* {
+
+	font-family: cursive;
+	color:#1C7491;
+
+}
+
+h1 {
+
+	color: red;
+	background-color: #CC7BE8;
+
+}
+#points {
+
+	color:#D61A91;
+	font-size: 36px;
+}
+
+img {
+
+	width: 200px;
+	height:200px;
+}
