@@ -41,6 +41,12 @@ Update as of: 11/8/'15
 	(>.<)
 	: no collaborators-flying SOLO!
 
+Update: 11/11/'15
+	: fix-known issue
+	1)promt window doesn't duplicate-YAY
+	2)total ('y') points display ok in console!!-YAY
+	
+
 
 	
 

@@ -6,37 +6,42 @@ var question3 = "Q3:Do you support Public Transportation? (Y) or (N)";
 var question4 = "Q4:Have you been in Seattle more than 5 years? (Y) or (N)";
 var question5 = "Q5:Do you like Pasta(Y) or No(N)?";
 var question6 = "Q6:Do you think I'm a dog-person?";
-var element;
+//var element = document.getElementById('points');
+var img1 = "robot_and_human.jpg";
+var img2 = 'veggies.jpeg';
+var img3 = 'metro.jpeg';
+var img4 = 'wto_seattle.jpg';
+var img5 = 'pasta.jpeg';
+var img6 = 'catsdogs.jpg';
+    
+function newGame(question, answer){
 
- 	
-function newGame(question, answer,img){
-
-    element = prompt(question);
-    //var element = document.getElementById('reply');
     var element = prompt(question);
     //guess = guess.toLowerCase();
     var elementTxt1 = 'Yes, Good answer';
     var elementtxt2 = "No, I don't like that idea";
     var elementTxt3 = 'Invalid response!';
 
-    if (answer === 'yes'|| answer ==='y'){
+    if (element === 'yes'|| element ==='y'){
         // var element = document.getElementById('reply');
         
         var element = prompt(elementTxt1);
-        
+        var answer = elementTxt1;
         element.innerHTML = elementTxt1;
         points++
 
-    }else if (answer ==='no'|| answer ==='n'){
+    }else if (element ==='no'|| element ==='n'){
         // var element = document.getElementById('reply');
          
         var element = prompt(elementTxt2);
-        element.innerHTML = elementTxt2;
+        var element = elementTxt2;
+        element.innerHTML = elementntTxt2;
 
     }else {
         // var element = document.getElementById('reply');
         
         var element = prompt(elementTxt3);
+        var element = elementTxt3;
         element.innerHTML = elementTxt3;
 
     }
@@ -164,13 +169,13 @@ function newGame(question, answer,img){
   
 // }
 
-var element;
+var element= document.getElementById('showMePoints');
 function showMePoints(){
     console.log(points);
 
     elementTxt4 = "You've earned: " + points + " Congratulations!";
-    element.innerHTML = elementTxt4;
-    document.getElementById('reply');
+    //element.innerHTML = elementTxt4;
+    //document.getElementById('reply');
  }  
 
 // function totalPoints(points){
