@@ -3,13 +3,13 @@
 
 	font-family: cursive;
 	color:#1C7491;
-
+	background-color: white;
 }
 
 h1 {
 
-	color: red;
-	background-color: #CC7BE8;
+	font-color: red;
+	background-color: yellow;
 
 }
 #points {
@@ -22,4 +22,9 @@ img {
 
 	width: 200px;
 	height:200px;
+}
+p {
+
+	color: violet;
+
 }
