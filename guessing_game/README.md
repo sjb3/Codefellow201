@@ -43,8 +43,8 @@ Update as of: 11/8/'15
 
 Update: 11/11/'15
 	: fix-known issue
-	1)promt window doesn't duplicate-YAY
-	2)total ('y') points display ok in console!!-YAY
+	1)prompt window doesn't duplicate-YAY
+	2)total ('y') points display ok in console and main web page-YAY
 	
 
 
